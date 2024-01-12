@@ -1,0 +1,19 @@
+
+@media only screen and (max-width: 599px) {
+    .button-call-to-action {
+      font-size: 0.60rem !important;
+      font-weight: 700 !important;
+      
+      padding: 6px 10px !important;
+      letter-spacing: 1px;
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 899px) {
+    .button-call-to-action {
+      font-size: .65rem !important;
+      font-weight: 700 !important;
+      
+      padding: 6px 10px !important;
+      letter-spacing: 1px;
+    }
+  }

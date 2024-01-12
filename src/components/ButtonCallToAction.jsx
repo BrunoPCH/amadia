@@ -4,10 +4,10 @@ import "../styles/ButtonCallToAction.css";
 const ButtonCallToAction = () => {
   return (
     <Button
-      className=""
+      className="button-call-to-action"
       variant="contained"
       color="accentColor"
-      href="https://wa.me/5556903821?text=Estoy%20interesado%20en%20agendar%20una%20cita..."
+      href="https://wa.me/5556903821?text=Hola%20me%20gustaría%20*recibir%20más%20información*."
     >
       Agendar&#160;cita
     </Button>
