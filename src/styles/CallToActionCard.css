@@ -1,0 +1,50 @@
+.call-to-action-card-container {
+  background-color: var(--secondary-color900);
+  margin-top: 0 !important;
+  max-height: 10rem;
+  padding-bottom: 1rem;
+}
+.call-to-action-card-left-column {
+  padding-top: 0 !important;
+}
+.call-to-action-card-right-column {
+  padding-top: 0 !important;
+  display: flex;
+  flex-flow: row nowrap;
+}
+@media only screen and (max-width: 599px) {
+  .call-to-action-card-right-column {
+    justify-content: center;
+  }
+}
+
+.call-to-action-card-title {
+  color: #fff;
+  display: inline-block;
+  margin-right: 2rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+@media only screen and (max-width: 599px) {
+  .call-to-action-card-title {
+    font-size: 0.9rem !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .call-to-action-card-title {
+    font-size: 1.1rem !important;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .call-to-action-card-title {
+    font-size: 1.1rem !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .call-to-action-card-title {
+    font-size: 1.1rem !important;
+  }
+}
+.button-call-to-action-blue {
+  background-color: var(--accent-color-blue);
+}

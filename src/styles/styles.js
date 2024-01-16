@@ -5,13 +5,17 @@ const baseTheme = createTheme({
     mode: "light",
     primary: {
       main: "#0a325a",
-      contrastText: "#ffebee",
+      contrastText: "#fff",
     },
     secondary: {
       main: "#6b1a0c",
     },
-    accentColor: {
-      main: "#D51219",
+    accentColorRed: {
+      main: "#d51219",
+      contrastText: "#ffffff",
+    },
+    accentColorBlue: {
+      main: "#006fff",
       contrastText: "#ffffff",
     },
     text: {
@@ -25,6 +29,7 @@ const baseTheme = createTheme({
   },
   typography: {
     fontFamily: ["Noto Serif", "serif"].join(","),
+    fontSize: 16,
     button: {
       fontWeight: 600,
     },

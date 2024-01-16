@@ -6,7 +6,7 @@ const ButtonCallToAction = () => {
     <Button
       className="button-call-to-action"
       variant="contained"
-      color="accentColor"
+      color="accentColorRed"
       href="https://wa.me/5556903821?text=Hola%20me%20gustaría%20*recibir%20más%20información*."
     >
       Agendar&#160;cita

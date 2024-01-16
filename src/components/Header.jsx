@@ -4,7 +4,7 @@ import { Container, Hidden } from "@mui/material";
 import "../styles/Header.css";
 const Header = () => {
   return (
-    <header xs={12} sm={12} md={12} lg={12} xl={12}>
+    <header>
       <Container className=" container-header" maxWidth="lg">
         <Logo />
         <div className="container-call-to-action-elements ">

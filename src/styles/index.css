@@ -12,7 +12,111 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* COLOR PALETTE */
+  --primary-color050: #e4e8ef;
+  --primary-color100: #bbc6d8;
+  --primary-color200: #90a2bd;
+  --primary-color300: #667ea3;
+  --primary-color400: #446492;
+  --primary-color500: #1c4b82;
+  --primary-color600: #14447a;
+  --primary-color700: #073b6f;
+  --primary-color800: #003163;
+  --primary-color900: #001933;
+
+  --secondary-color050: #f8e8e9;
+  --secondary-color100: #efc5c7;
+  --secondary-color200: #d38e8a;
+  --secondary-color300: #bf655f;
+  --secondary-color400: #c1473b;
+  --secondary-color500: #bf3820;
+  --secondary-color600: #c31602;
+  --secondary-color700: #a8191e;
+  --secondary-color800: #952115;
+  --secondary-color900: #851a0c;
+
+  --accent-color-blue: #006fff;
+  --accent-color-red: #d51219;
 }
+.font-light {
+  color: var(--primary-color050);
+}
+.font-dark {
+  color: var(--primary-color800);
+}
+
+@media only screen and (max-width: 599px) {
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 1.625rem;
+    font-weight: 380;
+  }
+  h3 {
+    font-size: 1.375rem;
+    font-weight: 450;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  h1 {
+    font-size: 3.3rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 2.3rem;
+    font-weight: 380;
+  }
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 380;
+  }
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 380;
+  }
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 380;
+  }
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+}
+
 .e1 {
   border: 1px solid blueviolet;
 }
@@ -22,6 +126,7 @@
 
 body {
   margin: 0;
+  background-color: var(--primary-color800);
 
   min-width: 320px;
   min-height: 100vh;
@@ -32,4 +137,8 @@ body {
     color: #213547;
     background-color: #ffffff;
   }
+}
+
+em {
+  font-style: normal;
 }

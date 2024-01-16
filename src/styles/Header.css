@@ -20,6 +20,7 @@ header {
   opacity: 1;
 
   height: 70px;
+  margin-bottom: 3rem;
 }
 @media only screen and (max-width: 599px) {
   header {
@@ -70,6 +71,8 @@ xl, extra-large: 1536px*/
   color: #fff;
   display: inline-block;
   margin-right: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 @media only screen and (max-width: 599px) {
   .call-to-action {
@@ -78,16 +81,16 @@ xl, extra-large: 1536px*/
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   .call-to-action {
-    font-size: .75rem;
+    font-size: 0.8rem !important;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
   .call-to-action {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1535px) {
   .call-to-action {
-    font-size: 1.25rem;
+    font-size: 1.1rem !important;
   }
 }

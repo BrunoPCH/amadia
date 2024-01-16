@@ -1,0 +1,90 @@
+/*BREAKPOINTS*/
+
+/*xs, extra-small: 0px
+sm, small: 600px
+md, medium: 900px
+lg, large: 1200px
+xl, extra-large: 1536px*/
+
+/* @media only screen and (max-width: 599px) {
+}
+/* @media only screen and (min-width: 600px) and (max-width: 899px) {
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+}
+@media only screen and (min-width: 1536px) {
+} */
+
+.container-about-card {
+  background-color: var(--primary-color600);
+  aspect-ratio: none !important;
+}
+@media only screen and (max-width: 599px) {
+  .container-about-card {
+    aspect-ratio: none !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .container-about-card {
+    aspect-ratio: none;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .container-about-card {
+    aspect-ratio: 16/8;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .container-about-card {
+    aspect-ratio: 16/8;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .container-about-card {
+    aspect-ratio: 16/8;
+  }
+}
+
+.grid-container-about-card {
+  height: 100%;
+  margin-bottom: 0 !important;
+  /* padding-bottom: 0 !important;
+  display: flex;
+  flex-flow: row; */
+}
+
+.grid-column-left-card {
+  padding-top: 0rem;
+}
+@media only screen and (max-width: 599px) {
+  .grid-column-left-card {
+    padding-top: 0rem !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .grid-column-left-card {
+    padding-top: 0rem !important;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .grid-column-left-card {
+    padding-top: 0rem !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .grid-column-left-card {
+    padding-top: 5rem !important;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .grid-column-left-card {
+    padding-top: 5rem !important;
+  }
+}
+
+.grid-column-right-card {
+  align-self: flex-end;
+}
