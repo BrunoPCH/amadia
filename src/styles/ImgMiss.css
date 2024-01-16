@@ -1,0 +1,49 @@
+/*BREAKPOINTS*/
+
+/*xs, extra-small: 0px
+sm, small: 600px
+md, medium: 900px
+lg, large: 1200px
+xl, extra-large: 1536px*/
+
+/* @media only screen and (max-width: 599px) {
+}
+/* @media only screen and (min-width: 600px) and (max-width: 899px) {
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+}
+@media only screen and (min-width: 1536px) {
+} */
+
+.ImageMiss {
+  width: 100%;
+
+  display: block;
+}
+@media only screen and (max-width: 599px) {
+  .ImageMiss {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .ImageMiss {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .ImageMiss {
+    width: 105%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .ImageMiss {
+    width: 112%;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .ImageMiss {
+    width: 112%;
+  }
+}

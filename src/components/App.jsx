@@ -1,9 +1,11 @@
 import { useState } from "react";
 import Header from "../components/Header.jsx";
+import AboutCard from "../components/AboutCard.jsx";
+import WhatsappFloatLogo from "../components/WhatsappFloatLogo.jsx";
 
 import "../styles/App.css";
 
-import { Button, Paper, Typography, Box, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import baseTheme from "../styles/styles";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header />
+      <WhatsappFloatLogo />
+      <AboutCard />
     </ThemeProvider>
   );
 }
