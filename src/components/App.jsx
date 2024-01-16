@@ -9,6 +9,7 @@ import { ThemeProvider } from "@mui/material";
 import baseTheme from "../styles/styles";
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [theme, setTheme] = useState(baseTheme);
 
   return (
