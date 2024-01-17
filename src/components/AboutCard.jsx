@@ -6,7 +6,7 @@ import "../styles/AboutCard.css";
 const AboutCard = () => {
   return (
     <section>
-      <Container className=" container-about-card">
+      <Container maxWidth="lg" className="container-about-card">
         <Grid
           container
           spacing={2}
@@ -26,12 +26,12 @@ const AboutCard = () => {
               <em>MADIA Abogados</em>
             </h1>
             <h2 className="font-light">
-              Experiencia y profesionalismo a tu servicio
+              Experiencia y profesionalismo a&#160;tu&#160;servicio
             </h2>
             <h3 className="font-light">
-              Sabemos que un <em>problema legal</em> es doblemente complicado
-              cuando se involucra a la <em>familia</em>, déjalo en nuestras
-              manos, tiene <em>solución</em>.
+              Sabemos que un <em>problema legal</em> es&#160;doblemente
+              complicado cuando se&#160;involucra a la <em>familia</em>,
+              déjalo&#160;en nuestras&#160;manos, tiene&#160;<em>solución</em>.
             </h3>
           </Grid>
           <Grid
