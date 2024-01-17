@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "../components/Header.jsx";
 import AboutCard from "../components/AboutCard.jsx";
 import WhatsappFloatLogo from "../components/WhatsappFloatLogo.jsx";
+import MadiaBenefitsCards from "../components/MadiaBenefitsCards.jsx";
 
 import "../styles/App.css";
 
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <WhatsappFloatLogo />
       <AboutCard />
+      <MadiaBenefitsCards />
     </ThemeProvider>
   );
 }

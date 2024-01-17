@@ -1,0 +1,117 @@
+.benefit-wide-section {
+  background-color: var(--primary-color600);
+}
+
+.benefits-section {
+  /* este debe de llevar flexbox */
+  display: flex !important;
+  flex-flow: row;
+
+  padding: 0 !important;
+}
+@media only screen and (max-width: 599px) {
+  .benefits-section {
+    flex-flow: row wrap;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .benefits-section {
+    flex-flow: row wrap;
+  }
+}
+
+.benefit-container {
+  aspect-ratio: 1/1;
+  flex-basis: 100%;
+  padding: 10% 0.6rem 0.6rem 0.6rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+@media only screen and (max-width: 599px) {
+  .benefit-container {
+    flex-basis: 100%;
+    padding: 10% 0.6rem 0.6rem 0.6rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .benefit-container {
+    flex-basis: 46.3%;
+    padding: 10% 0.6rem 0.6rem 0.6rem;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .benefit-container {
+    flex-basis: 25%;
+    padding: 3% 0.6rem 0.6rem 0.6rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .benefit-container {
+    flex-basis: 25%;
+    padding: 3% 0.6rem 0.6rem 0.6rem;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .benefit-container {
+    flex-basis: 25%;
+    padding: 2% 0.6rem 0.6rem 0.6rem;
+  }
+}
+
+.benefit-icon {
+  display: block;
+  font-size: 0;
+  width: 40%;
+  opacity: 0.47;
+  margin: 1rem auto 2rem auto;
+}
+@media only screen and (max-width: 599px) {
+  .benefit-icon {
+    max-width: 150px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .benefit-icon {
+    max-width: 150px;
+  }
+}
+
+.benefit-description {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 460;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 599px) {
+  .benefit-description {
+    width: 80%;
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .benefit-description {
+    width: 80%;
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .benefit-description {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .benefit-description {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .benefit-description {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}
