@@ -23,15 +23,17 @@ const AboutCard = () => {
             className="grid-column-left-card "
           >
             <h1 className="font-light">
-              <em>MADIA Abogados</em>
+              <strong>MADIA Abogados</strong>
             </h1>
             <h2 className="font-light">
-              Experiencia y profesionalismo a&#160;tu&#160;servicio
+              <strong>Experiencia y profesionalismo</strong>
+              a&#160;tu&#160;servicio
             </h2>
             <h3 className="font-light">
-              Sabemos que un <em>problema legal</em> es&#160;doblemente
-              complicado cuando se&#160;involucra a la <em>familia</em>,
-              déjalo&#160;en nuestras&#160;manos, tiene&#160;<em>solución</em>.
+              Sabemos que un <strong>problema legal</strong> es&#160;doblemente
+              complicado cuando se&#160;involucra a la <strong>familia</strong>,
+              déjalo&#160;en nuestras&#160;manos, tiene&#160;
+              <strong>solución</strong>.
             </h3>
           </Grid>
           <Grid
