@@ -6,13 +6,13 @@ const benefits = [
     id: "1",
     iconUrl: "src/assets/low-cost-icon.svg",
     description:
-      "<em>Atención profesional</em> de primer nivel a un <em>costo&#160;accesible</em>.",
+      "<em>Atención profesional</em> de primer nivel a un <strong>costo&#160;accesible</strong>.",
   },
   {
     id: "2",
     iconUrl: "src/assets/trade-icon.svg",
     description:
-      "Evita gastos sorpresa, el&#160;<em>presupuesto de la cotización es el&#160;costo&#160;total</em>.",
+      "Evita gastos sorpresa, el&#160;<strong>presupuesto de la cotización es el&#160;costo&#160;total</strong>.",
   },
   {
     id: "3",
@@ -23,7 +23,7 @@ const benefits = [
   {
     id: "4",
     iconUrl: "src/assets/client-service.svg",
-    description: "<em>Atención inmediata</em> y&#160;transparente.",
+    description: "<strong>Atención inmediata</strong> y&#160;transparente.",
   },
 ];
 
