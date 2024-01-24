@@ -1,0 +1,49 @@
+.hero-call-to-action-container-wide {
+  aspect-ratio: 1/1;
+  background-image: url("../assets/cellphone-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300%;
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .hero-call-to-action-container-wide {
+    aspect-ratio: 16/9;
+    min-height: 338px;
+    background-size: 230%;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .hero-call-to-action-container-wide {
+    aspect-ratio: 2.7/1;
+    min-height: 300px;
+    background-size: 180%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .hero-call-to-action-container-wide {
+    aspect-ratio: 2.7/1;
+    min-height: 400px;
+    background-size: 180%;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .hero-call-to-action-container-wide {
+    aspect-ratio: 2.7/1;
+    min-height: 500px;
+    background-size: 150%;
+  }
+}
+.hero-call-to-action-container-boxed {
+  display: flex !important;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero-call-to-action-container-boxed h2.hero-call-to-action-slogan,
+.hero-call-to-action-container-boxed h2.hero-call-to-action-slogan strong {
+  display: block;
+  font-weight: 600 !important;
+  text-align: center;
+}

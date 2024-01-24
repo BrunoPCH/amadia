@@ -1,0 +1,29 @@
+.hero-button-call-to-action {
+  max-width: 280px;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 1.5rem !important;
+  align-self: center;
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .hero-button-call-to-action {
+    max-width: 75%;
+    margin-top: 1rem !important;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .hero-button-call-to-action {
+    max-width: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1535px) {
+  .hero-button-call-to-action {
+    max-width: none;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .hero-button-call-to-action {
+    max-width: none;
+  }
+}

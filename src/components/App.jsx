@@ -4,6 +4,7 @@ import AboutCard from "../components/AboutCard.jsx";
 import WhatsappFloatLogo from "../components/WhatsappFloatLogo.jsx";
 import MadiaBenefitsCards from "../components/MadiaBenefitsCards.jsx";
 import ExperticeAreasCard from "../components/ExperticeAreasCard.jsx";
+import HeroCallToAction from "../components/HeroCallToAction.jsx";
 
 import "../styles/App.css";
 
@@ -21,6 +22,7 @@ function App() {
       <AboutCard />
       <MadiaBenefitsCards />
       <ExperticeAreasCard />
+      <HeroCallToAction />
     </ThemeProvider>
   );
 }
