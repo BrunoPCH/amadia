@@ -5,6 +5,7 @@ import WhatsappFloatLogo from "../components/WhatsappFloatLogo.jsx";
 import MadiaBenefitsCards from "../components/MadiaBenefitsCards.jsx";
 import ExperticeAreasCard from "../components/ExperticeAreasCard.jsx";
 import HeroCallToAction from "../components/HeroCallToAction.jsx";
+import MadiaEspecialists from "./MadiaEspecialistsCard.jsx";
 
 import "../styles/App.css";
 
@@ -23,6 +24,7 @@ function App() {
       <MadiaBenefitsCards />
       <ExperticeAreasCard />
       <HeroCallToAction />
+      <MadiaEspecialists />
     </ThemeProvider>
   );
 }

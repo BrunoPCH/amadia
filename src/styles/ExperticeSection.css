@@ -100,7 +100,7 @@
   .expertice-areas-item h4.expertice-area-title,
   .expertice-areas-item h4.expertice-area-title strong {
     font-size: 1.5rem;
-    min-height: 10rem !important;
+    min-height: 5rem !important;
   }
 }
 .expertice-areas-item p.expertice-area-description,

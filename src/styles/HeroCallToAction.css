@@ -1,9 +1,11 @@
 .hero-call-to-action-container-wide {
   aspect-ratio: 1/1;
-  background-image: url("../assets/cellphone-background.jpg");
+  background-image: url("../assets/cellphone-background.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   .hero-call-to-action-container-wide {
@@ -28,7 +30,7 @@
 }
 @media only screen and (min-width: 1536px) {
   .hero-call-to-action-container-wide {
-    aspect-ratio: 2.7/1;
+    aspect-ratio: 3/1;
     min-height: 500px;
     background-size: 150%;
   }

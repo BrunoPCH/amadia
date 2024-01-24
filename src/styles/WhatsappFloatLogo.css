@@ -2,6 +2,7 @@
   position: fixed;
   width: 60px;
   height: 60px;
+  aspect-ratio: 1/1;
   bottom: 2rem;
   right: 3rem;
   background-color: #25d366;

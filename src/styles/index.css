@@ -39,6 +39,9 @@
   --accent-color-blue: #006fff;
   --accent-color-red: #d51219;
 }
+* {
+  font-display: optional;
+}
 .font-light {
   color: var(--primary-color050);
 }
