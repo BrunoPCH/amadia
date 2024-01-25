@@ -2,4 +2,6 @@
   margin-bottom: 0 !important;
   display: block;
   width: 100%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
