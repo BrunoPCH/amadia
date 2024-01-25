@@ -21,6 +21,7 @@ xl, extra-large: 1536px*/
   width: 100%;
   max-width: 720px;
   display: block;
+  aspect-ratio: 1/1.025;
 }
 @media only screen and (max-width: 599px) {
   .ImageMiss {

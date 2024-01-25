@@ -1,7 +1,8 @@
 // import imgMissImage from "../assets/senora-e-hija.png";
 import imgMissImageSx from "../assets/senora-e-hija-600.webp";
+import imgMissImageMd from "../assets/senora-e-hija-800.webp";
 
-import imgMissImageLg from "../assets/senora-e-hija-900.webp";
+// import imgMissImageLg from "../assets/senora-e-hija-900.webp";
 import "../styles/ImgMiss.css";
 
 const ImgMiss = () => {
@@ -9,7 +10,7 @@ const ImgMiss = () => {
     <>
       <img
         src={imgMissImageSx}
-        srcSet={`${imgMissImageSx} 300w, ${imgMissImageSx} 600w, ${imgMissImageLg}   900w, ${imgMissImageLg} 1200w`}
+        srcSet={`${imgMissImageSx} 300w, ${imgMissImageSx} 600w, ${imgMissImageMd}   900w, ${imgMissImageSx} 1200w`}
         className="ImageMiss"
         alt="Señora e hija en familia"
       />
