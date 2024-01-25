@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material/styles";
-
+const font = "'Noto Serif', 'serif'";
 const baseTheme = createTheme({
   palette: {
     mode: "light",
@@ -28,7 +28,7 @@ const baseTheme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Noto Serif", "serif"].join(","),
+    fontFamily: font,
     fontSize: 16,
     button: {
       fontWeight: 600,
