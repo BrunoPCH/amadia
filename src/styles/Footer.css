@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--secondary-color800);
+  min-height: 5rem !important;
+  margin-top: 3rem;
+  display: block;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+b {
+  font-weight: 800;
+}
+.MuiPaper-root {
+  background-color: var(--primary-color800) !important;
+}

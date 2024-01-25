@@ -5,20 +5,20 @@ const MadiaEspecialistsCard = () => {
   return (
     <section>
       <Container maxWidth="lg" className="container-especialist-card">
-        <div className="grid-container-especialist e2">
-          <div className="grid-item-card-specialist-a e1">
+        <div className="grid-container-especialist ">
+          <div className="grid-item-card-specialist-a ">
             <h2 className="section-title font-light">
               Equipo de Especialistas
             </h2>
           </div>
-          <div className="grid-item-card-specialist-b e1">
+          <div className="grid-item-card-specialist-b ">
             <img
               className="img-specialist"
               src={imgSpecialist}
               alt="Acercamiento de hombres trabajando con una hoja de papel y un boligrafo"
             />
           </div>
-          <div className="grid-item-card-specialist-c e1">
+          <div className="grid-item-card-specialist-c ">
             <div>
               <h3 className="font-light">
                 Somos un grupo conformado por{" "}
