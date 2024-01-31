@@ -79,7 +79,10 @@ const Footer = () => {
               El presente aviso de privacidad es aplicable a los datos
               personales y datos sensibles que sean recabados por{" "}
               <b>MADIA Abogados</b>a través de la página de internet
-              _______________________.
+              <a href="https://www.madiaabogados.com.mx">
+                https://www.madiaabogados.com.mx
+              </a>
+              .
             </p>
             <p>
               El responsable de recabar los datos personales es{" "}
@@ -290,9 +293,14 @@ const Footer = () => {
               </li>
               <li>
                 Al solicitar información a través de la página de internet
-                _____________________, el usuario acepta los presentes términos
-                y condiciones y el aviso de privacidad que puede ser consultado
-                en _______________________
+                <a href="https://www.madiaabogados.com.mx">
+                  https://www.madiaabogados.com.mx
+                </a>
+                , el usuario acepta los presentes términos y condiciones y el
+                aviso de privacidad que puede ser consultado en{" "}
+                <a href="https://www.madiaabogados.com.mx">
+                  https://www.madiaabogados.com.mx
+                </a>
               </li>
             </ol>
           </DialogContentText>
