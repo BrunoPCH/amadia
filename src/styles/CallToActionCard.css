@@ -19,7 +19,7 @@
 }
 
 .call-to-action-card-title {
-  color: #fff;
+  color: #161f29;
   display: inline-block;
   margin-right: 2rem;
   font-weight: 600;
@@ -46,5 +46,5 @@
   }
 }
 .button-call-to-action-blue {
-  background-color: var(--primary-color700);
+  background-color: var(--primary-color800);
 }

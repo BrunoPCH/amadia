@@ -4,25 +4,25 @@ const baseTheme = createTheme({
   palette: {
     mode: "light",
     primary: {
-      main: "#0a325a",
+      main: "#343b47",
       contrastText: "#fff",
     },
     secondary: {
-      main: "#6b1a0c",
+      main: "#b59549",
     },
     accentColorRed: {
-      main: "#d51219",
-      contrastText: "#ffffff",
+      main: "#cba447",
+      contrastText: "#222c38",
     },
     accentColorBlue: {
-      main: "#006fff",
+      main: "#5c7699",
       contrastText: "#ffffff",
     },
     text: {
       hint: "#6b1a0c",
       primary: "#303587",
     },
-    divider: "#00acc1",
+    divider: "#f2d05a",
     background: {
       paper: "#cbe0ff",
     },

@@ -26,8 +26,9 @@ const AboutCard = () => {
               <strong>MADIA Abogados</strong>
             </h1>
             <h2 className="font-light">
-              <strong>Experiencia y profesionalismo</strong>
-              a&#160;tu&#160;servicio
+              <strong>
+                Experiencia y profesionalismo a&#160;tu&#160;servicio
+              </strong>
             </h2>
             <h3 className="font-light">
               Sabemos que un <strong>problema legal</strong> es&#160;doblemente

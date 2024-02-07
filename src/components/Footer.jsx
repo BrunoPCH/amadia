@@ -44,13 +44,13 @@ const Footer = () => {
     <footer>
       <Button
         onClick={handleClickOpen("paper")}
-        style={{ color: "#FFF", textTransform: "none" }}
+        style={{ color: "#161f29", textTransform: "none" }}
       >
         Aviso de privacidad
       </Button>
       <Button
         onClick={handleClickOpenTerms("paper")}
-        style={{ color: "#FFF", textTransform: "none" }}
+        style={{ color: "#161f29", textTransform: "none" }}
       >
         Términos y condiciones
       </Button>
