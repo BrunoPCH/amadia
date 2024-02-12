@@ -3,7 +3,7 @@ import HeroButtonCallToAction from "../components/HeroButtonCallToAction.jsx";
 import { Container } from "@mui/material";
 const HeroCallToAction = () => {
   return (
-    <section className="hero-call-to-action-container-wide">
+    <section className="hero-call-to-action-container-wide" id="agenda-llamada">
       <Container className="hero-call-to-action-container-boxed" maxWidth="lg">
         <h2 className="hero-call-to-action-slogan font-light">
           <strong>

@@ -41,6 +41,7 @@
 }
 * {
   font-display: optional;
+  scroll-behavior: smooth;
 }
 .font-light {
   color: var(--primary-color050);

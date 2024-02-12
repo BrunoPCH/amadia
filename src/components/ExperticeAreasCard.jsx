@@ -4,7 +4,7 @@ import ImgExperticeAreas from "../components/ImgExperticeAreas.jsx";
 import ExperticeSection from "../components/ExperticeSection.jsx";
 const ExperticeAreasCard = () => {
   return (
-    <section>
+    <section id="areas-experiencia">
       <Container maxWidth="lg" className="container-expertice-areas-card">
         <div className="grid-container-expertice-areas ">
           <div className="grid-item-card-a ">

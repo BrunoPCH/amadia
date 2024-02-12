@@ -5,7 +5,7 @@ import "../styles/AboutCard.css";
 
 const AboutCard = () => {
   return (
-    <section>
+    <section id="nosotros">
       <Container maxWidth="lg" className="container-about-card">
         <Grid
           container

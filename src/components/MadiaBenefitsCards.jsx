@@ -5,7 +5,7 @@ import "../styles/MadiaBenefitsCards.css";
 
 const MadiaBenefitsCards = () => {
   return (
-    <section>
+    <section id="valores">
       <Container maxWidth="lg" className="container-benefits-card">
         <h2 className="font-light section-title">
           ¿Por qué elegir a MADIA&#160;Abogados?
