@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 distRESPALDO
+dist.zip
 dist-ssr
 *.local
 
